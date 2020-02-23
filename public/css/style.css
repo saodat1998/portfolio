@@ -76,17 +76,19 @@ figure {
 }
 #colorlib-aside {
   padding-top: 1em;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
   float: left;
   width: 300px;
   position: fixed;
-  overflow-y: scroll;
+  /* overflow-y: scroll; */
   scrollbar-width: thin;
   z-index: 1001;
   background: #f2f3f7;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
-  transition: 0.5s; }
+  transition: 0.5s; 
+  height: 100vh;
+}
   @media screen and (max-width: 768px) {
     #colorlib-aside {
       width: 300px;
@@ -398,7 +400,6 @@ body.offcanvas {
   width: 100%;
   display: block; }
   @media screen and (max-width: 768px) {
-    .colorlib-experience,
     .colorlib-skills,
     .colorlib-education,
     .colorlib-blog,
@@ -407,7 +408,7 @@ body.offcanvas {
     .colorlib-services,
     .colorlib-contact {
       padding-top: 5em;
-      padding-bottom: 8em; } }
+       } }
 
 .author-img {
   background-size: cover;

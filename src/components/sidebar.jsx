@@ -66,11 +66,11 @@ export default class Sidebar extends Component {
                   <i className="icon-facebook2" />
                 </a>
                 <a
-                  href="https://www.instagram.com/sadirbaevas/"
+                  href="https://t.me/SaDirBaeVaS"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <i className="icon-instagram" />
+                  <i className="icon-telegram" />
                 </a>
                 <a
                   href="https://www.linkedin.com/in/saodat-sadirbaeva-123344187"
