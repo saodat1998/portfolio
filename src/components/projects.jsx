@@ -1,103 +1,107 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
 
 export default class Projects extends Component {
-  render() {
-    return (
-      <div>
+	render() {
+		return (
+			<div>
 				<section className="colorlib-work" data-section="projects">
 					<div className="colorlib-narrow-content">
 						<div className="row">
-							<div className="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+							<div
+								className="col-md-6 col-md-offset-3 col-md-pull-3 animate-box"
+								data-animate-effect="fadeInLeft"
+							>
 								<span className="heading-meta">My Work</span>
 								<h2 className="colorlib-heading animate-box">Recent Projects</h2>
 							</div>
 						</div>
 						<div className="row">
-							<div className="col-md-4 animate-box" data-animate-effect="fadeInLeft">
-								<div className="project" style={{backgroundImage: 'url(images/img-1.jpg)'}}>
+							<div className="col-lg-6 col-md-12 project animate-box" data-animate-effect="fadeInLeft">
+								<div className="project-cont">
+									<h3>
+										<a href="https://sportgazeta.uz/uz">sportgazeta.uz</a>
+									</h3>
+									<div className="project2" style={{ backgroundImage: 'url(images/p1.png)' }}></div>
 									<div className="desc">
 										<div className="con">
-											<h3><a href="work.html">Work 01</a></h3>
-											<span>Website</span>
+											<p>SPA application</p>
+
 											<p className="icon">
-												<span><a href="#"><i className="icon-share3" /></a></span>
-												<span><a href="#"><i className="icon-eye" /> 100</a></span>
-												<span><a href="#"><i className="icon-heart" /> 49</a></span>
+												<span>React</span>
+												<span>Redux</span>
+												<span>Axios</span>
+												<span>Rest-api</span>
+												<span>i18n</span>
+												<span>
+													<i className="icon-heart" />
+												</span>
 											</p>
 										</div>
 									</div>
 								</div>
 							</div>
-							<div className="col-md-4 animate-box" data-animate-effect="fadeInRight">
-								<div className="project" style={{backgroundImage: 'url(images/img-2.jpg)'}}>
+							<div className="col-lg-6 col-md-12 project animate-box" data-animate-effect="fadeInLeft">
+								<div className="project-cont">
+									<h3>
+										<a href="https://www.mortgagecalculatorplus.com/">mortgagecalculatorplus.com</a>
+									</h3>
+									<div className="project2" style={{ backgroundImage: 'url(images/p2.png)' }}></div>
 									<div className="desc">
 										<div className="con">
-											<h3><a href="work.html">Work 02</a></h3>
-											<span>Animation</span>
+											<p>Custom calculator</p>
 											<p className="icon">
-												<span><a href="#"><i className="icon-share3" /></a></span>
-												<span><a href="#"><i className="icon-eye" /> 100</a></span>
-												<span><a href="#"><i className="icon-heart" /> 49</a></span>
+												<span>Php</span>
+												<span>Smarty</span>
+												<span>Jquery</span>
+												<span>Google page speed</span>
+												<span>Chart.js</span>
+												<span>
+													<i className="icon-heart" />
+												</span>
 											</p>
 										</div>
 									</div>
 								</div>
 							</div>
-							<div className="col-md-4 animate-box" data-animate-effect="fadeInTop">
-								<div className="project" style={{backgroundImage: 'url(images/img-3.jpg)'}}>
+							<div className="col-lg-6 col-md-12 project animate-box" data-animate-effect="fadeInLeft">
+								<div className="project-cont">
+									<h3>
+										<a href="https://magblock.ru/">magblock.ru</a>
+									</h3>
+									<div className="project2" style={{ backgroundImage: 'url(images/p3.png)' }}></div>
 									<div className="desc">
 										<div className="con">
-											<h3><a href="work.html">Work 03</a></h3>
-											<span>Illustration</span>
+											<p>Custom calculator</p>
 											<p className="icon">
-												<span><a href="#"><i className="icon-share3" /></a></span>
-												<span><a href="#"><i className="icon-eye" /> 100</a></span>
-												<span><a href="#"><i className="icon-heart" /> 49</a></span>
+												<span>Php</span>
+												<span>Angular 1.0</span>
+												<span>Jquery</span>
+												<span>Wordpress</span>
+												<span>
+													<i className="icon-heart" />
+												</span>
 											</p>
 										</div>
 									</div>
 								</div>
 							</div>
-							<div className="col-md-4 animate-box" data-animate-effect="fadeInBottom">
-								<div className="project" style={{backgroundImage: 'url(images/img-4.jpg)'}}>
+							<div className="col-lg-6 col-md-12 project animate-box" data-animate-effect="fadeInLeft">
+								<div className="project-cont">
+									<h3>
+										<a href="https://affilify.com/">affilify.com</a>
+									</h3>
+									<div className="project2" style={{ backgroundImage: 'url(images/p4.png)' }}></div>
 									<div className="desc">
 										<div className="con">
-											<h3><a href="work.html">Work 04</a></h3>
-											<span>Application</span>
+											<p>LMS Website</p>
 											<p className="icon">
-												<span><a href="#"><i className="icon-share3" /></a></span>
-												<span><a href="#"><i className="icon-eye" /> 100</a></span>
-												<span><a href="#"><i className="icon-heart" /> 49</a></span>
-											</p>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div className="col-md-4 animate-box" data-animate-effect="fadeInLeft">
-								<div className="project" style={{backgroundImage: 'url(images/img-5.jpg)'}}>
-									<div className="desc">
-										<div className="con">
-											<h3><a href="work.html">Work 05</a></h3>
-											<span>Graphic, Logo</span>
-											<p className="icon">
-												<span><a href="#"><i className="icon-share3" /></a></span>
-												<span><a href="#"><i className="icon-eye" /> 100</a></span>
-												<span><a href="#"><i className="icon-heart" /> 49</a></span>
-											</p>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div className="col-md-4 animate-box" data-animate-effect="fadeInRight">
-								<div className="project" style={{backgroundImage: 'url(images/img-6.jpg)'}}>
-									<div className="desc">
-										<div className="con">
-											<h3><a href="work.html">Work 06</a></h3>
-											<span>Web Design</span>
-											<p className="icon">
-												<span><a href="#"><i className="icon-share3" /></a></span>
-												<span><a href="#"><i className="icon-eye" /> 100</a></span>
-												<span><a href="#"><i className="icon-heart" /> 49</a></span>
+												<span>Php</span>
+												<span>Vue js</span>
+												<span>Jquery</span>
+												<span>Wordpress</span>
+												<span>
+													<i className="icon-heart" />
+												</span>
 											</p>
 										</div>
 									</div>
@@ -106,12 +110,20 @@ export default class Projects extends Component {
 						</div>
 						<div className="row">
 							<div className="col-md-12 animate-box">
-								<p><a href="#" className="btn btn-primary btn-lg btn-load-more">Load more <i className="icon-reload" /></a></p>
+								<p>
+									<a
+										href="https://gist.github.com/saodat1998/c05a0465c0426cbfd97932e95428476e"
+										target="_blank"
+										className="btn btn-primary btn-lg btn-load-more"
+									>
+										Load more <i className="icon-reload" />
+									</a>
+								</p>
 							</div>
 						</div>
 					</div>
 				</section>
-      </div>
-    )
-  }
+			</div>
+		);
+	}
 }
